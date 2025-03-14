@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [color,setColor] = useState('olive') 
+  const [color,setColor] = useState('white') 
   return (
     <div className='w-full h-screen duration-150 '
     style={{backgroundColor:color}}>
